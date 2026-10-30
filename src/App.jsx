@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from 'react';
 
+import anniversaryImg from './assets/images/anniversary.jpg';
+import birthdayImg from './assets/images/birthday.jpg';
+import haldiImg from './assets/images/haldi.jpg';
+import mandapImg from './assets/images/mandap.jpg';
+import receptionImg from './assets/images/reception.jpg';
+import stageImg from './assets/images/stage.jpg';
+
 const WA = 'https://wa.me/918423848321';
 
 const photos = {
-  hero: '/images/reception.jpg',
-  mandap: '/images/mandap.jpg',
-  stage: '/images/stage.jpg',
-  reception: '/images/reception.jpg',
-  haldi: '/images/haldi.jpg',
-  birthday: '/images/birthday.jpg',
-  anniversary: '/images/anniversary.jpg',
-  detail: '/images/stage.jpg'
+  hero: receptionImg,
+  mandap: mandapImg,
+  stage: stageImg,
+  reception: receptionImg,
+  haldi: haldiImg,
+  birthday: birthdayImg,
+  anniversary: anniversaryImg,
+  detail: stageImg
 };
 
 const services = [
